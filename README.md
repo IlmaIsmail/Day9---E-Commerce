@@ -37,7 +37,6 @@
             Department Endpoints
 
                 GET /dept: Retrieves all departments
-![Screenshot (82)](https://github.com/user-attachments/assets/facd3c11-3db6-454b-83b0-34c7b583a0ec)
 
                     Response: List of Department objects
                     Status codes: 200 OK
