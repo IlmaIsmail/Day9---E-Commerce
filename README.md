@@ -27,13 +27,17 @@
                 Hibernate DDL Auto: update (creates/updates tables automatically)
             How to Run
                 Ensure you have Java 11 or higher installed
-                Install MySQL and create a database named 'employee'
+                Install MySQL and create a database named 'employeedb' and insert values into department table
+![Screenshot (82)](https://github.com/user-attachments/assets/67fb5e76-068e-4cfe-9dce-3d238e0b425f)
+            
                 Configure the database connection in application.properties
                 Build the project using Maven: mvn clean install
                 Run the application: mvn spring-boot:run
         API Endpoints
             Department Endpoints
+
                 GET /dept: Retrieves all departments
+![Screenshot (82)](https://github.com/user-attachments/assets/facd3c11-3db6-454b-83b0-34c7b583a0ec)
 
                     Response: List of Department objects
                     Status codes: 200 OK
