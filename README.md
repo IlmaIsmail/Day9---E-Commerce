@@ -17,3 +17,28 @@
                   GET /dept - Retrieves all departments
                   GET /dept/{id} - Retrieves a specific department by ID
                   (Commented out) POST, PUT, DELETE operations for departments
+
+        Database Configuration
+            The application uses MySQL database with the following configuration:
+
+                Database URL: jdbc:mysql://localhost:3307/employeedb
+                Username: root
+                Password: (empty)
+                Hibernate DDL Auto: update (creates/updates tables automatically)
+            How to Run
+                Ensure you have Java 11 or higher installed
+                Install MySQL and create a database named 'employee'
+                Configure the database connection in application.properties
+                Build the project using Maven: mvn clean install
+                Run the application: mvn spring-boot:run
+        API Endpoints
+            Department Endpoints
+                GET /dept: Retrieves all departments
+
+                    Response: List of Department objects
+                    Status codes: 200 OK
+
+                    
+![Screenshot (83)](https://github.com/user-attachments/assets/406ba977-402e-4858-bed2-223c7befd052)
+
+
