@@ -39,7 +39,7 @@
                     Status codes: 200 OK
 
                     
-    ![Screenshot (83)](https://github.com/user-attachments/assets/406ba977-402e-4858-bed2-223c7befd052)
+![Screenshot (83)](https://github.com/user-attachments/assets/406ba977-402e-4858-bed2-223c7befd052)
 
                 GET /dept/{id}: Retrieves a specific department by ID
 
@@ -47,7 +47,7 @@
                     Response: Department object
                     Status codes: 200 OK (if found), 404 NOT_FOUND (if not found)
 
-    ![Screenshot (85)](https://github.com/user-attachments/assets/0fc5142b-c08b-4e83-be5a-8da76c506be7)
+![Screenshot (85)](https://github.com/user-attachments/assets/0fc5142b-c08b-4e83-be5a-8da76c506be7)
 
 
-    ![Screenshot (84)](https://github.com/user-attachments/assets/a83d051e-5e0a-49eb-a2c0-ee2cf74590e5)
+![Screenshot (84)](https://github.com/user-attachments/assets/a83d051e-5e0a-49eb-a2c0-ee2cf74590e5)
